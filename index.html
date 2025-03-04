@@ -3,115 +3,171 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Consulting Business</title>
+  <title>Jon Joensen Consulting</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <!-- Header and Navigation -->
+  <!-- Header -->
   <header>
     <div class="container header-container">
       <div class="logo">
-        <!-- Placeholder for logo -->
-        <img src="https://via.placeholder.com/150x50?text=Logo" alt="Logo">
+        <a href="#home"><img src="https://via.placeholder.com/150x50?text=Logo" alt="Logo"></a>
       </div>
       <nav>
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <button class="mobile-nav-toggle" aria-label="Toggle navigation">
-          &#9776;
-        </button>
+        <button class="mobile-nav-toggle" aria-label="Toggle navigation">&#9776;</button>
       </nav>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section id="home" class="hero">
+  <section id="home" class="hero fade-in">
+    <div class="hero-overlay"></div>
     <div class="hero-content">
-      <h1>Your Trusted Consulting Partner</h1>
-      <p>Helping businesses thrive with expert advice and practical solutions.</p>
+      <h1>Jon Joensen Consulting</h1>
+      <p>Delivering strategic insights and innovative solutions to propel your business forward.</p>
       <a href="#contact" class="cta-button">Get in Touch</a>
     </div>
-    <!-- Placeholder hero image -->
-    <img class="hero-image" src="https://via.placeholder.com/1200x600?text=Hero+Image" alt="Hero Image">
+    <img class="hero-bg" src="https://via.placeholder.com/1920x1080?text=Professional+Background" alt="Background">
   </section>
 
   <!-- About Section -->
-  <section id="about" class="section about">
+  <section id="about" class="section about fade-in">
     <div class="container">
       <h2>About Me</h2>
-      <p>With years of industry experience, I provide bespoke consulting services tailored to your business needs. My approach combines strategic insights with practical solutions.</p>
-      <!-- Placeholder about image -->
-      <img src="https://via.placeholder.com/600x400?text=About+Image" alt="About Image">
+      <p>
+        I am a seasoned consultant with a wealth of experience in business strategy, market analysis, and operational excellence. My mission is to empower businesses with the insights and strategies they need to succeed in today’s competitive landscape.
+      </p>
+      <img src="https://via.placeholder.com/600x400?text=Professional+Portrait" alt="Professional Portrait">
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="section resume fade-in">
+    <div class="container">
+      <h2>Resume</h2>
+      <div class="resume-content">
+        <div class="resume-item">
+          <h3>Professional Experience</h3>
+          <ul>
+            <li>
+              <h4>Senior Consultant, XYZ Corp</h4>
+              <span class="date">2018 - Present</span>
+              <p>Providing strategic advice and delivering comprehensive market analysis to drive business growth.</p>
+            </li>
+            <li>
+              <h4>Consultant, ABC Inc</h4>
+              <span class="date">2015 - 2018</span>
+              <p>Developed innovative solutions for operational improvement and business process optimization.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-item">
+          <h3>Education</h3>
+          <ul>
+            <li>
+              <h4>MBA, Top University</h4>
+              <span class="date">2013 - 2015</span>
+              <p>Specialized in Business Strategy and Management.</p>
+            </li>
+            <li>
+              <h4>Bachelor of Business Administration</h4>
+              <span class="date">2009 - 2013</span>
+              <p>Focused on finance and marketing fundamentals.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-item">
+          <h3>Skills</h3>
+          <ul class="skills-list">
+            <li>Business Strategy</li>
+            <li>Market Analysis</li>
+            <li>Operational Excellence</li>
+            <li>Data-Driven Decision Making</li>
+            <li>Leadership</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Services Section -->
-  <section id="services" class="section services">
+  <section id="services" class="section services fade-in">
     <div class="container">
       <h2>Services</h2>
-      <div class="services-list">
-        <div class="service-item">
-          <!-- Placeholder icon -->
-          <img src="https://via.placeholder.com/80?text=Icon" alt="Service Icon">
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="https://via.placeholder.com/80?text=Icon" alt="Business Strategy Icon">
           <h3>Business Strategy</h3>
-          <p>Crafting strategic plans that drive growth and competitive advantage.</p>
+          <p>Strategic planning and execution to drive growth and sustainability.</p>
         </div>
-        <div class="service-item">
-          <img src="https://via.placeholder.com/80?text=Icon" alt="Service Icon">
+        <div class="service-card">
+          <img src="https://via.placeholder.com/80?text=Icon" alt="Market Analysis Icon">
           <h3>Market Analysis</h3>
-          <p>In-depth market research and insights to inform your next move.</p>
+          <p>Comprehensive research and insights to uncover market opportunities.</p>
         </div>
-        <div class="service-item">
-          <img src="https://via.placeholder.com/80?text=Icon" alt="Service Icon">
+        <div class="service-card">
+          <img src="https://via.placeholder.com/80?text=Icon" alt="Operational Excellence Icon">
           <h3>Operational Excellence</h3>
-          <p>Optimizing processes to increase efficiency and profitability.</p>
+          <p>Streamlining processes to enhance productivity and profitability.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Portfolio Section -->
-  <section id="portfolio" class="section portfolio">
+  <section id="portfolio" class="section portfolio fade-in">
     <div class="container">
       <h2>Portfolio</h2>
-      <div class="portfolio-gallery">
-        <!-- Placeholder portfolio items -->
+      <div class="portfolio-grid">
         <div class="portfolio-item">
           <img src="https://via.placeholder.com/400x300?text=Project+1" alt="Project 1">
           <h3>Project One</h3>
+          <p>A transformative project that revolutionized operational workflows.</p>
         </div>
         <div class="portfolio-item">
           <img src="https://via.placeholder.com/400x300?text=Project+2" alt="Project 2">
           <h3>Project Two</h3>
+          <p>Market analysis that led to a significant increase in market share.</p>
         </div>
         <div class="portfolio-item">
           <img src="https://via.placeholder.com/400x300?text=Project+3" alt="Project 3">
           <h3>Project Three</h3>
+          <p>Innovative business strategy implementation for long-term success.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="section contact">
+  <section id="contact" class="section contact fade-in">
     <div class="container">
       <h2>Contact Me</h2>
       <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
-  
-        <label for="email">Email</label>
-        <input type="email" id="email" name="_replyto" required>
-  
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-  
-        <button type="submit">Send Message</button>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="_replyto" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="cta-button">Send Message</button>
       </form>
     </div>
   </section>
@@ -119,9 +175,8 @@
   <!-- Footer -->
   <footer>
     <div class="container footer-container">
-      <p>&copy; 2025 Your Consulting Business. All rights reserved.</p>
-      <div class="social-icons">
-        <!-- Example social icons as inline SVG -->
+      <p>&copy; 2025 Jon Joensen Consulting. All rights reserved.</p>
+      <div class="social-links">
         <a href="#" aria-label="Twitter">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
             <path d="M22.46 6c-.77.35-1.6.59-2.46.7a4.28 4.28 0 001.88-2.36 8.59 8.59 0 01-2.72 1.04 4.27 4.27 0 00-7.29 3.9 12.11 12.11 0 01-8.79-4.45 4.27 4.27 0 001.32 5.7 4.24 4.24 0 01-1.94-.54v.05a4.27 4.27 0 003.42 4.18 4.3 4.3 0 01-1.93.07 4.28 4.28 0 003.99 2.96A8.57 8.57 0 012 19.54a12.07 12.07 0 006.56 1.92c7.88 0 12.2-6.54 12.2-12.2 0-.19-.01-.38-.02-.57A8.7 8.7 0 0024 5.54a8.5 8.5 0 01-2.54.7z"/>
@@ -136,7 +191,7 @@
     </div>
   </footer>
 
+  <!-- JavaScript -->
   <script src="js/main.js"></script>
 </body>
 </html>
-
